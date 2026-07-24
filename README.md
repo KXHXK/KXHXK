@@ -1,7 +1,7 @@
 # Hi, I'm KXH
 
 I build reliable AI agent applications and practical engineering tools with
-Python, TypeScript, C#, and MATLAB. My current focus is agent orchestration,
+Python, TypeScript, and C#. My current focus is agent orchestration,
 tool integration, human approval workflows, observability, and reproducible
 delivery.
 
@@ -33,20 +33,14 @@ TypeScript, and external travel APIs.
 - [ag-ui-protocol/ag-ui #2207](https://github.com/ag-ui-protocol/ag-ui/issues/2207):
   direct ADK session lookup when thread IDs are used as session IDs.
 
-## Engineering Archive
+## Other Projects
 
-- [KLS Serial](https://github.com/KXHXK/KLS-Serial): Windows Forms utility for
-  K-, L-, and S-band serial protocol testing.
-- [MATLAB Data Imaging](https://github.com/KXHXK/data_Imaging_show.m): sensor
-  frame parsing, 2D trajectories, and 3D target visualization.
-- [PDF Maker](https://github.com/KXHXK/Pdfmaker): C# PDF report generation from
-  text, images, and JSON data.
 - [Serial Port Assistant](https://github.com/KXHXK/Serial): introductory C#
   serial communication desktop application.
 
 ## Technology
 
 `Python` `FastAPI` `LangGraph` `MCP` `PostgreSQL` `Redis` `OpenTelemetry`
-`TypeScript` `React` `Vue` `C#` `MATLAB` `Docker` `GitHub Actions`
+`TypeScript` `React` `Vue` `C#` `Docker` `GitHub Actions`
 
 Based in Shanghai, China.
