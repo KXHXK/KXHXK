@@ -37,6 +37,12 @@ TypeScript, and external travel APIs.
 
 - [Serial Port Assistant](https://github.com/KXHXK/Serial): introductory C#
   serial communication desktop application.
+- [KLS Serial Utility](https://github.com/KXHXK/KLS-Serial): Windows Forms
+  utility for serial protocol testing and transceiver configuration.
+- [MATLAB Imaging Tools](https://github.com/KXHXK/data_Imaging_show.m): sensor
+  frame parsing, signal imaging, trajectories, and 3D visualization.
+- [PDF Report Generator](https://github.com/KXHXK/Pdfmaker): C# report
+  generation for text, images, JSON, tables, watermarks, and page numbers.
 
 ## Technology
 
