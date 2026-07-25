@@ -23,30 +23,29 @@ An educational multi-agent travel planner with specialized weather,
 attraction, hotel, and itinerary agents. Built with FastAPI, Vue 3,
 TypeScript, and external travel APIs.
 
-- [Live frontend](https://helloagents-trip-planner-kxh.vercel.app)
 - Supports mock services for local development without consuming API quotas.
 
-## Open-Source Contributions
+## Open-Source Work
 
-- [browser-use/browser-use #5142](https://github.com/browser-use/browser-use/pull/5142):
-  preserve explicitly empty accessibility names in DOM processing.
-- [ag-ui-protocol/ag-ui #2207](https://github.com/ag-ui-protocol/ag-ui/issues/2207):
-  direct ADK session lookup when thread IDs are used as session IDs.
+- [Open PR: browser-use/browser-use #5142](https://github.com/browser-use/browser-use/pull/5142):
+  preserve explicitly empty accessibility names in DOM processing, with
+  regression coverage and review feedback addressed.
+- [Issue investigation: ag-ui-protocol/ag-ui #2207](https://github.com/ag-ui-protocol/ag-ui/issues/2207):
+  traced ADK session lookup performance and proposed a direct lookup path with
+  focused tests.
 
 ## Other Projects
 
 - [Serial Port Assistant](https://github.com/KXHXK/Serial): introductory C#
   serial communication desktop application.
-- [KLS Serial Utility](https://github.com/KXHXK/KLS-Serial): Windows Forms
+- [KLS Serial Utility](https://github.com/KXHXK/kls-serial-utility): Windows Forms
   utility for serial protocol testing and transceiver configuration.
-- [MATLAB Imaging Tools](https://github.com/KXHXK/data_Imaging_show.m): sensor
+- [MATLAB Imaging Tools](https://github.com/KXHXK/matlab-imaging-tools): sensor
   frame parsing, signal imaging, trajectories, and 3D visualization.
-- [PDF Report Generator](https://github.com/KXHXK/Pdfmaker): C# report
+- [PDF Report Generator](https://github.com/KXHXK/pdf-report-generator): C# report
   generation for text, images, JSON, tables, watermarks, and page numbers.
 
 ## Technology
 
 `Python` `FastAPI` `LangGraph` `MCP` `PostgreSQL` `Redis` `OpenTelemetry`
 `TypeScript` `React` `Vue` `C#` `Docker` `GitHub Actions`
-
-Based in Shanghai, China.
