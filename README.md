@@ -57,7 +57,7 @@ make behavior explainable, reproducible, and reviewable.
 </tr>
 </table>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Project
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Projects
 
 ### OperCerta
 
@@ -82,9 +82,32 @@ current facts, recover safely, and leave an audit trail.
   <img src="https://img.shields.io/badge/Live-Engineering_Showcase-00AD9F?style=flat&logo=netlify&logoColor=white" alt="OperCerta engineering showcase" />
 </a>
 
+### FieldPilot
+
+> A policy-aware field mission orchestration agent for multi-stop business
+> travel, expense constraints, and event-driven replanning.
+
+**Background:** Field work combines fixed appointment windows, intercity and
+local transport, accommodation, meals, reimbursement rules, and disruptions.
+FieldPilot turns those constraints into explainable plans instead of relying on
+an unconstrained model response.
+
+**Completed work:**
+
+- Built a typed PydanticAI intake boundary with persisted missions, revisions, events, provider snapshots, and agent-run evidence.
+- Added bounded candidate search, a deterministic policy engine, and an independent verifier for time, cost, task coverage, and meal constraints.
+- Integrated asynchronous Amap route and nearby-POI adapters with caching, request budgets, in-flight deduplication, and explicit fixture fallback.
+- Delivered event-driven replanning with revision diffs, a Vue workbench, Alembic migrations, Docker configuration, CI, and 42 backend tests.
+
+<a href="https://github.com/KXHXK/fieldpilot">
+  <img src="https://img.shields.io/badge/Repository-FieldPilot-181717?style=flat&logo=github&logoColor=white" alt="FieldPilot repository" />
+</a>
+<a href="https://kxh-agent-portfolio.netlify.app/">
+  <img src="https://img.shields.io/badge/Portfolio-Project_Showcase-00AD9F?style=flat&logo=netlify&logoColor=white" alt="FieldPilot portfolio showcase" />
+</a>
+
 ### Selected Engineering Projects
 
-- **[HelloAgents Trip Planner](https://github.com/KXHXK/helloagents-trip-planner):** an educational multi-agent planner built with FastAPI, Vue 3, TypeScript, travel APIs, and local mock services.
 - **[Serial Port Assistant](https://github.com/KXHXK/Serial)** and **[KLS Serial Utility](https://github.com/KXHXK/kls-serial-utility):** C# Windows tools for serial communication and protocol testing.
 - **[MATLAB Imaging Tools](https://github.com/KXHXK/matlab-imaging-tools):** sensor frame parsing, signal imaging, trajectories, and 3D visualization.
 - **[PDF Report Generator](https://github.com/KXHXK/pdf-report-generator):** C# reports containing text, images, JSON, tables, watermarks, and page numbers.
