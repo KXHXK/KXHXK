@@ -59,18 +59,10 @@ make behavior explainable, reproducible, and reviewable.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Project
 
-<table>
-<tr>
-<td width="36%" align="center" valign="top">
-  <a href="https://opercerta-kxh.netlify.app">
-    <img src="https://raw.githubusercontent.com/KXHXK/opercerta/main/web/public/evidence/console-approval-flow.png" alt="OperCerta human approval and audit workflow" width="250" />
-  </a>
-  <br />
-  <sub>Human approval and audit flow using synthetic demo data.</sub>
-</td>
-<td width="64%" valign="top">
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="24" /> [OperCerta](https://github.com/KXHXK/opercerta)
 
-### [OperCerta](https://github.com/KXHXK/opercerta)
+> An auditable operations agent for inventory exceptions, equipment alerts,
+> and human-approved work orders.
 
 **Background:** Operational exceptions need more than a model response. The
 system must investigate evidence, stop before side effects, bind approval to
@@ -89,10 +81,6 @@ current facts, recover safely, and leave an audit trail.
 <a href="https://opercerta-kxh.netlify.app">
   <img src="https://img.shields.io/badge/Live-Engineering_Showcase-00AD9F?style=flat&logo=netlify&logoColor=white" alt="OperCerta engineering showcase" />
 </a>
-
-</td>
-</tr>
-</table>
 
 ### Selected Engineering Projects
 
