@@ -4,19 +4,7 @@
   AI Agent Developer building reliable, auditable systems that connect models, tools, data, and human decisions.
 </p>
 
-<p align="center">
-  <a href="mailto:shepherdlaurie238@gmail.com">
-    <img src="https://img.shields.io/badge/Email-shepherdlaurie238%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://opercerta-kxh.netlify.app">
-    <img src="https://img.shields.io/badge/Engineering_Showcase-OperCerta-00AD9F?style=flat&logo=netlify&logoColor=white" alt="OperCerta engineering showcase" />
-  </a>
-  <a href="https://github.com/KXHXK?tab=repositories">
-    <img src="https://img.shields.io/badge/Portfolio-GitHub_Projects-181717?style=flat&logo=github&logoColor=white" alt="GitHub project portfolio" />
-  </a>
-</p>
-
-## About Me
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Man Technologist" width="32" /> About Me
 
 I am an AI agent developer focused on turning model capabilities into dependable
 software. I build systems where LLMs can investigate problems, call tools, pause
@@ -28,7 +16,7 @@ observability infrastructure, and practical delivery through containers and CI.
 My earlier C# and MATLAB projects reflect a broader engineering background in
 desktop tools, serial communication, signal processing, and visualization.
 
-## What I Do
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="32" /> What I Do
 
 - **Reliable agent systems:** bounded orchestration, deterministic evaluation,
   checkpoint recovery, idempotent execution, and fail-closed behavior.
@@ -41,7 +29,7 @@ desktop tools, serial communication, signal processing, and visualization.
 - **Full-stack delivery:** FastAPI services, React and Vue interfaces,
   PostgreSQL/Redis state, Docker environments, and static engineering showcases.
 
-## Featured Work
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Work
 
 ### [OperCerta](https://github.com/KXHXK/opercerta)
 
@@ -73,7 +61,7 @@ quotas.
   generation of reports containing text, images, JSON, tables, watermarks, and
   page numbers.
 
-## Tech I Work With
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="32" /> Tech I Work With
 
 **Languages**
 
@@ -114,7 +102,7 @@ quotas.
 ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat&logo=ruff&logoColor=261230)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
 
-## Open Source Contributions
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Octopus.png" alt="Octopus" width="32" /> Open Source Contributions
 
 I contribute focused, regression-tested fixes to established AI agent and
 developer-tool projects. Personal-repository merges are excluded from the
@@ -140,9 +128,19 @@ My contribution work also covers async stream cleanup, token-usage
 normalization, human-in-the-loop continuation, cache migrations, A2A
 interoperability, and agent UI state management.
 
-## Get in Touch
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="32" /> Get in Touch
 
-- **Email:** [shepherdlaurie238@gmail.com](mailto:shepherdlaurie238@gmail.com)
-- **Portfolio:** [GitHub projects](https://github.com/KXHXK?tab=repositories)
-- **Engineering showcase:** [OperCerta](https://opercerta-kxh.netlify.app)
-- **GitHub:** [github.com/KXHXK](https://github.com/KXHXK)
+I am open to conversations about reliable AI agents, MCP integrations,
+human-approved automation, and focused open-source collaboration.
+
+<p>
+  <a href="mailto:shepherdlaurie238@gmail.com">
+    <img src="https://img.shields.io/badge/Email-shepherdlaurie238%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://opercerta-kxh.netlify.app">
+    <img src="https://img.shields.io/badge/Engineering_Showcase-OperCerta-00AD9F?style=flat&logo=netlify&logoColor=white" alt="OperCerta engineering showcase" />
+  </a>
+  <a href="https://github.com/KXHXK?tab=repositories">
+    <img src="https://img.shields.io/badge/Portfolio-GitHub_Projects-181717?style=flat&logo=github&logoColor=white" alt="GitHub project portfolio" />
+  </a>
+</p>
