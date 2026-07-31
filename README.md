@@ -59,7 +59,7 @@ make behavior explainable, reproducible, and reviewable.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Project
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="24" /> [OperCerta](https://github.com/KXHXK/opercerta)
+### OperCerta
 
 > An auditable operations agent for inventory exceptions, equipment alerts,
 > and human-approved work orders.
