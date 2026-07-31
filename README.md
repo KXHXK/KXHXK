@@ -7,61 +7,103 @@
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Man Technologist" width="32" /> About Me
 
 I am an AI agent developer focused on turning model capabilities into dependable
-software. I build systems where LLMs can investigate problems, call tools, pause
-for human approval, recover after interruption, and produce evidence that can be
-tested and audited.
+software. My work connects agent orchestration, tools, data, human decisions,
+and verifiable delivery.
 
-My current work combines Python agent backends, TypeScript frontends, data and
-observability infrastructure, and practical delivery through containers and CI.
-My earlier C# and MATLAB projects reflect a broader engineering background in
-desktop tools, serial communication, signal processing, and visualization.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Engineering" width="20" /> <strong>Building reliable agent systems</strong> with bounded execution, explicit state, recovery paths, and controlled side effects.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Left.png" alt="Investigation" width="20" /> <strong>Debugging from contracts and regressions</strong> across async workflows, MCP tools, streaming state, accessibility, and interoperability.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Evidence" width="20" /> <strong>Producing engineering evidence</strong> through deterministic evaluation, observability, automated tests, and CI.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Collaboration" width="20" /> <strong>Contributing upstream</strong> with focused fixes, transparent validation, and careful review follow-up.
+- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Engineering background" width="20" /> <strong>Drawing on a practical engineering background</strong> in Python, TypeScript, C#, MATLAB, desktop utilities, signal processing, and visualization.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="32" /> What I Do
 
-- **Reliable agent systems:** bounded orchestration, deterministic evaluation,
-  checkpoint recovery, idempotent execution, and fail-closed behavior.
-- **Tool and protocol integration:** MCP/FastMCP tools, structured model-to-tool
-  loops, external APIs, and Agent-to-Agent interoperability.
-- **Human-approved automation:** workflows that separate model recommendations
-  from policy checks, approval decisions, and controlled side effects.
-- **Observability and testing:** OpenTelemetry instrumentation, regression-first
-  debugging, offline test doubles, and CI-backed engineering evidence.
-- **Full-stack delivery:** FastAPI services, React and Vue interfaces,
-  PostgreSQL/Redis state, Docker environments, and static engineering showcases.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Work
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="22" /> Reliable Agent Orchestration
+
+Designing bounded agent workflows with explicit state transitions, checkpoint
+recovery, deterministic evaluation, and fail-closed behavior.
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="22" /> Tool and Protocol Integration
+
+Connecting models to MCP/FastMCP tools, external APIs, structured tool loops,
+and Agent-to-Agent interoperability without hiding lifecycle failures.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="22" /> Human-Approved Automation
+
+Separating model recommendations from policy checks, fact-bound approvals,
+idempotent writes, and deterministic read-back verification.
+
+</td>
+<td width="50%" valign="top">
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Bar chart" width="22" /> Observability and Verification
+
+Using OpenTelemetry, regression-first tests, offline test doubles, and CI to
+make behavior explainable, reproducible, and reviewable.
+
+</td>
+</tr>
+</table>
+
+## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Project
+
+<table>
+<tr>
+<td width="36%" align="center" valign="top">
+  <a href="https://opercerta-kxh.netlify.app">
+    <img src="https://raw.githubusercontent.com/KXHXK/opercerta/main/web/public/evidence/console-approval-flow.png" alt="OperCerta human approval and audit workflow" width="250" />
+  </a>
+  <br />
+  <sub>Human approval and audit flow using synthetic demo data.</sub>
+</td>
+<td width="64%" valign="top">
 
 ### [OperCerta](https://github.com/KXHXK/opercerta)
 
-An auditable operations agent for inventory exceptions, equipment alerts, and
-human-approved work orders. It uses a bounded LangGraph runtime, FastMCP tools,
-PostgreSQL approval and idempotency controls, Redis caching, OpenTelemetry, and a
-React interface.
+**Background:** Operational exceptions need more than a model response. The
+system must investigate evidence, stop before side effects, bind approval to
+current facts, recover safely, and leave an audit trail.
 
-- [Open the engineering showcase](https://opercerta-kxh.netlify.app)
-- Includes deterministic evaluation, approval checkpoints, restart recovery,
-  read-back verification, and CI-backed evidence.
-- Keeps model reasoning advisory while deterministic code owns write safety.
+**Completed work:**
 
-### [HelloAgents Trip Planner](https://github.com/KXHXK/helloagents-trip-planner)
+- Built one bounded LangGraph runtime for inventory, equipment, and blocked-task scenarios.
+- Added FastMCP tools, policy checks, human approval checkpoints, idempotent writes, restart recovery, and read-back verification.
+- Integrated PostgreSQL, pgvector, Redis, OpenTelemetry, React, Docker, deterministic evaluation, and CI-backed release evidence.
+- Kept the model advisory while deterministic code owns write authorization and safety boundaries.
 
-An educational multi-agent travel planner with specialized weather, attraction,
-hotel, and itinerary agents, built with FastAPI, Vue 3, TypeScript, and external
-travel APIs. Mock services support local development without consuming API
-quotas.
+<a href="https://github.com/KXHXK/opercerta">
+  <img src="https://img.shields.io/badge/Repository-OperCerta-181717?style=flat&logo=github&logoColor=white" alt="OperCerta repository" />
+</a>
+<a href="https://opercerta-kxh.netlify.app">
+  <img src="https://img.shields.io/badge/Live-Engineering_Showcase-00AD9F?style=flat&logo=netlify&logoColor=white" alt="OperCerta engineering showcase" />
+</a>
 
-### Engineering Utilities
+</td>
+</tr>
+</table>
 
-- [Serial Port Assistant](https://github.com/KXHXK/Serial) and
-  [KLS Serial Utility](https://github.com/KXHXK/kls-serial-utility): C# Windows
-  tools for serial communication and protocol testing.
-- [MATLAB Imaging Tools](https://github.com/KXHXK/matlab-imaging-tools): sensor
-  frame parsing, signal imaging, trajectories, and 3D visualization.
-- [PDF Report Generator](https://github.com/KXHXK/pdf-report-generator): C#
-  generation of reports containing text, images, JSON, tables, watermarks, and
-  page numbers.
+### Selected Engineering Projects
+
+- **[HelloAgents Trip Planner](https://github.com/KXHXK/helloagents-trip-planner):** an educational multi-agent planner built with FastAPI, Vue 3, TypeScript, travel APIs, and local mock services.
+- **[Serial Port Assistant](https://github.com/KXHXK/Serial)** and **[KLS Serial Utility](https://github.com/KXHXK/kls-serial-utility):** C# Windows tools for serial communication and protocol testing.
+- **[MATLAB Imaging Tools](https://github.com/KXHXK/matlab-imaging-tools):** sensor frame parsing, signal imaging, trajectories, and 3D visualization.
+- **[PDF Report Generator](https://github.com/KXHXK/pdf-report-generator):** C# reports containing text, images, JSON, tables, watermarks, and page numbers.
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="32" /> Tech I Work With
+
+<div align="center">
 
 **Languages**
 
@@ -102,6 +144,8 @@ quotas.
 ![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat&logo=ruff&logoColor=261230)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
 
+</div>
+
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Octopus.png" alt="Octopus" width="32" /> Open Source Contributions
 
 I contribute focused, regression-tested fixes to established AI agent and
@@ -133,7 +177,7 @@ interoperability, and agent UI state management.
 I am open to conversations about reliable AI agents, MCP integrations,
 human-approved automation, and focused open-source collaboration.
 
-<p>
+<p align="center">
   <a href="mailto:shepherdlaurie238@gmail.com">
     <img src="https://img.shields.io/badge/Email-shepherdlaurie238%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
   </a>
