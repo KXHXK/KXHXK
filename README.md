@@ -163,13 +163,14 @@ I contribute focused, regression-tested fixes to established AI agent and
 developer-tool projects. Personal-repository merges are excluded from the
 upstream count.
 
-### Upstream-Merged Contributions: 3
+### Upstream-Merged Contributions: 4
 
 | Type | Project | Contribution | Outcome |
 |:--|:--|:--|:--|
 | Agent workflow state | [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | Preserved the table binding across consecutive declarative `EditTable` additions in both executor versions and added repeated-operation regression tests. | Merged |
 | Developer experience and accessibility | [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | Unified Zotero progress and error feedback, added neutral information semantics, retained ARIA live-region behavior, and verified XSS-safe rendering. | Merged |
 | Async agent execution | [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | Fixed `stop_on_first_result` so a fast `None` result cannot cancel a slower valid result; used deterministic concurrency testing. | Merged via maintainer PR with KXH authorship retained |
+| Model usage accounting | [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | Counted token usage from successful model calls discarded by `AfterModelCallEvent.retry`, keeping cost reporting and invocation limits accurate, with a focused regression test. | Merged |
 
 ### Selected Contributions in Review
 
