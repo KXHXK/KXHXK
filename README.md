@@ -1,118 +1,89 @@
-<h1 align="center">Hi, I'm KXH</h1>
+<h1 align="center">Full-Stack Software Development</h1>
 
 <p align="center">
-  AI Agent Developer building reliable, auditable systems that connect models, tools, data, and human decisions.
+  Web applications, backend APIs, AI automation, desktop tools, and production-minded delivery.
 </p>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Man%20Technologist.png" alt="Man Technologist" width="32" /> About Me
+<p align="center">
+  <a href="https://kxh-agent-portfolio.netlify.app/">
+    <img src="https://img.shields.io/badge/Delivery_Portfolio-View_Projects-006B57?style=flat&logo=netlify&logoColor=white" alt="Software delivery portfolio" />
+  </a>
+  <a href="https://github.com/KXHXK?tab=repositories">
+    <img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub repositories" />
+  </a>
+</p>
 
-I am an AI agent developer focused on turning model capabilities into dependable
-software. My work connects agent orchestration, tools, data, human decisions,
-and verifiable delivery.
-
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Engineering" width="20" /> <strong>Building reliable agent systems</strong> with bounded execution, explicit state, recovery paths, and controlled side effects.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Magnifying%20Glass%20Tilted%20Left.png" alt="Investigation" width="20" /> <strong>Debugging from contracts and regressions</strong> across async workflows, MCP tools, streaming state, accessibility, and interoperability.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Evidence" width="20" /> <strong>Producing engineering evidence</strong> through deterministic evaluation, observability, automated tests, and CI.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Collaboration" width="20" /> <strong>Contributing upstream</strong> with focused fixes, transparent validation, and careful review follow-up.
-- <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png" alt="Engineering background" width="20" /> <strong>Drawing on a practical engineering background</strong> in Python, TypeScript, C#, MATLAB, desktop utilities, signal processing, and visualization.
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="32" /> What I Do
+## What I Build
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Robot.png" alt="Robot" width="22" /> Reliable Agent Orchestration
+### Web Products and Admin Tools
 
-Designing bounded agent workflows with explicit state transitions, checkpoint
-recovery, deterministic evaluation, and fail-closed behavior.
+Responsive customer portals, operational dashboards, internal tools, and data-rich interfaces built with React, Vue, and TypeScript.
 
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="22" /> Tool and Protocol Integration
+### APIs and Business Systems
 
-Connecting models to MCP/FastMCP tools, external APIs, structured tool loops,
-and Agent-to-Agent interoperability without hiding lifecycle failures.
+FastAPI services, PostgreSQL and Redis data layers, authentication boundaries, third-party integrations, and observable backend workflows.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Shield.png" alt="Shield" width="22" /> Human-Approved Automation
+### AI and Workflow Automation
 
-Separating model recommendations from policy checks, fact-bound approvals,
-idempotent writes, and deterministic read-back verification.
+LLM applications, agent orchestration, MCP tools, retrieval, human approval, evaluation, and controlled business automation.
 
 </td>
 <td width="50%" valign="top">
 
-### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" alt="Bar chart" width="22" /> Observability and Verification
+### Desktop and Data Engineering
 
-Using OpenTelemetry, regression-first tests, offline test doubles, and CI to
-make behavior explainable, reproducible, and reviewable.
+C# Windows utilities, serial and device communication, report generation, MATLAB signal processing, and technical visualization.
 
 </td>
 </tr>
 </table>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Star.png" alt="Star" width="32" /> Featured Projects
+## Delivery Approach
 
-### OperCerta
+- **Scope before implementation:** clarify users, workflows, integrations, constraints, and acceptance criteria.
+- **Visible milestones:** deliver working increments instead of hiding progress until the end.
+- **Engineering evidence:** use automated tests, repeatable demos, logs, metrics, and CI where appropriate.
+- **Deployment and handoff:** provide reproducible environments, operational notes, and maintainable source code.
+- **Privacy by default:** public demos use synthetic or redacted data and never expose client credentials or internal systems.
 
-> An auditable operations agent for inventory exceptions, equipment alerts,
-> and human-approved work orders.
+## Featured Work
 
-**Background:** Operational exceptions need more than a model response. The
-system must investigate evidence, stop before side effects, bind approval to
-current facts, recover safely, and leave an audit trail.
+### [OperCerta](https://github.com/KXHXK/opercerta)
 
-**Completed work:**
+An auditable full-stack operations system for inventory exceptions, equipment alerts, and human-approved work orders.
 
-- Built one bounded LangGraph runtime for inventory, equipment, and blocked-task scenarios.
-- Added FastMCP tools, policy checks, human approval checkpoints, idempotent writes, restart recovery, and read-back verification.
-- Integrated PostgreSQL, pgvector, Redis, OpenTelemetry, React, Docker, deterministic evaluation, and CI-backed release evidence.
-- Kept the model advisory while deterministic code owns write authorization and safety boundaries.
+- Bounded LangGraph workflows, FastMCP tools, policy checks, approval checkpoints, restart recovery, and idempotent writes.
+- FastAPI, PostgreSQL, pgvector, Redis, OpenTelemetry, React, Docker, deterministic evaluation, and CI.
+- [Open the engineering showcase](https://opercerta-kxh.netlify.app)
 
-<a href="https://github.com/KXHXK/opercerta">
-  <img src="https://img.shields.io/badge/Repository-OperCerta-181717?style=flat&logo=github&logoColor=white" alt="OperCerta repository" />
-</a>
-<a href="https://opercerta-kxh.netlify.app">
-  <img src="https://img.shields.io/badge/Live-Engineering_Showcase-00AD9F?style=flat&logo=netlify&logoColor=white" alt="OperCerta engineering showcase" />
-</a>
+### [FieldPilot](https://github.com/KXHXK/fieldpilot)
 
-### FieldPilot
+A deployed field-mission planning system that turns natural-language requirements into confirmed missions, verified plans, and revision evidence.
 
-> A policy-aware field mission orchestration agent for multi-stop business
-> travel, expense constraints, and event-driven replanning.
+- Typed AI intake, bounded planning, policy validation, checkpointed execution, and suffix-only replanning.
+- Python APIs, TypeScript workbench, PostgreSQL, cloud deployment, live evaluation, and reproducible public demos.
+- [Open the project showcase](https://fieldpilot-kxh.netlify.app/)
 
-**Background:** Field work combines fixed appointment windows, intercity and
-local transport, accommodation, meals, reimbursement rules, and disruptions.
-FieldPilot turns those constraints into explainable plans instead of relying on
-an unconstrained model response.
+### Additional Engineering Projects
 
-**Completed work:**
+- **[HelloAgents Trip Planner](https://github.com/KXHXK/helloagents-trip-planner):** multi-agent travel planning with FastAPI, Vue 3, TypeScript, and external APIs.
+- **[Serial Port Assistant](https://github.com/KXHXK/Serial)** and **[KLS Serial Utility](https://github.com/KXHXK/kls-serial-utility):** C# Windows communication and protocol-testing tools.
+- **[MATLAB Imaging Tools](https://github.com/KXHXK/matlab-imaging-tools):** sensor-frame parsing, signal imaging, trajectories, and 3D visualization.
+- **[PDF Report Generator](https://github.com/KXHXK/pdf-report-generator):** C# report generation for text, images, JSON, tables, watermarks, and pagination.
 
-- Built a typed PydanticAI intake boundary with persisted missions, revisions, events, provider snapshots, and agent-run evidence.
-- Added bounded candidate search, a deterministic policy engine, and an independent verifier for time, cost, task coverage, and meal constraints.
-- Integrated asynchronous Amap route and nearby-POI adapters with caching, request budgets, in-flight deduplication, and explicit fixture fallback.
-- Delivered event-driven replanning with revision diffs, a Vue workbench, Alembic migrations, Docker configuration, CI, and 42 backend tests.
-
-<a href="https://github.com/KXHXK/fieldpilot">
-  <img src="https://img.shields.io/badge/Repository-FieldPilot-181717?style=flat&logo=github&logoColor=white" alt="FieldPilot repository" />
-</a>
-<a href="https://kxh-agent-portfolio.netlify.app/">
-  <img src="https://img.shields.io/badge/Portfolio-Project_Showcase-00AD9F?style=flat&logo=netlify&logoColor=white" alt="FieldPilot portfolio showcase" />
-</a>
-
-### Selected Engineering Projects
-
-- **[Serial Port Assistant](https://github.com/KXHXK/Serial)** and **[KLS Serial Utility](https://github.com/KXHXK/kls-serial-utility):** C# Windows tools for serial communication and protocol testing.
-- **[MATLAB Imaging Tools](https://github.com/KXHXK/matlab-imaging-tools):** sensor frame parsing, signal imaging, trajectories, and 3D visualization.
-- **[PDF Report Generator](https://github.com/KXHXK/pdf-report-generator):** C# reports containing text, images, JSON, tables, watermarks, and page numbers.
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Toolbox.png" alt="Toolbox" width="32" /> Tech I Work With
+## Technology
 
 <div align="center">
 
@@ -124,79 +95,43 @@ an unconstrained model response.
 ![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
 
-**AI Agents and APIs**
-
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat&logo=modelcontextprotocol&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![OpenAI APIs](https://img.shields.io/badge/OpenAI--compatible_APIs-412991?style=flat&logo=openai&logoColor=white)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
-
-**Data and Observability**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
-
-**Frontend**
+**Application and AI**
 
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vuedotjs&logoColor=4FC08D)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat&logo=vite&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
 
-**Development and Infrastructure**
+**Data and Delivery**
 
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat&logo=ruff&logoColor=261230)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
 
 </div>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Animals/Octopus.png" alt="Octopus" width="32" /> Open Source Contributions
+## Open-Source Engineering Evidence
 
-I contribute focused, regression-tested fixes to established AI agent and
-developer-tool projects. Personal-repository merges are excluded from the
-upstream count.
+Four focused contributions have been accepted by established AI agent and developer-tool projects. Personal repository work is excluded from this count.
 
-### Upstream-Merged Contributions: 4
-
-| Type | Project | Contribution | Outcome |
-|:--|:--|:--|:--|
-| Agent workflow state | [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | Preserved the table binding across consecutive declarative `EditTable` additions in both executor versions and added repeated-operation regression tests. | Merged |
-| Developer experience and accessibility | [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | Unified Zotero progress and error feedback, added neutral information semantics, retained ARIA live-region behavior, and verified XSS-safe rendering. | Merged |
-| Async agent execution | [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | Fixed `stop_on_first_result` so a fast `None` result cannot cancel a slower valid result; used deterministic concurrency testing. | Merged via maintainer PR with KXH authorship retained |
-| Model usage accounting | [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | Counted token usage from successful model calls discarded by `AfterModelCallEvent.retry`, keeping cost reporting and invocation limits accurate, with a focused regression test. | Merged |
-
-### Selected Contributions in Review
-
-| Type | Project | Contribution |
+| Project | Contribution | Outcome |
 |:--|:--|:--|
-| Tool state correctness | [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | Keeps streamed tool responses in `ERROR` after a failure instead of allowing a later terminal chunk to hide it. |
-| MCP lifecycle | [Smolagents #2570](https://github.com/huggingface/smolagents/pull/2570) | Clears stale MCP tools after disconnect while preserving shutdown errors and reconnection behavior. |
-| Accessibility-tree semantics | [browser-use #5142](https://github.com/browser-use/browser-use/pull/5142) | Preserves the distinction between an explicitly empty accessibility name and a missing name across DOM matching paths. |
+| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. | Merged |
+| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. | Merged |
+| [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. | Merged with authorship retained |
+| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | Merged |
 
-My contribution work also covers async stream cleanup, token-usage
-normalization, human-in-the-loop continuation, cache migrations, A2A
-interoperability, and agent UI state management.
+## Start a Project
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="32" /> Get in Touch
-
-I am open to conversations about reliable AI agents, MCP integrations,
-human-approved automation, and focused open-source collaboration.
+The best first message includes the business goal, target users, current workflow, required integrations, expected timeline, and any technical constraints. Please do not send passwords, production credentials, confidential datasets, or proprietary source code in an initial inquiry.
 
 <p align="center">
-  <a href="mailto:shepherdlaurie238@gmail.com">
-    <img src="https://img.shields.io/badge/Email-shepherdlaurie238%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <a href="https://opercerta-kxh.netlify.app">
-    <img src="https://img.shields.io/badge/Engineering_Showcase-OperCerta-00AD9F?style=flat&logo=netlify&logoColor=white" alt="OperCerta engineering showcase" />
-  </a>
-  <a href="https://github.com/KXHXK?tab=repositories">
-    <img src="https://img.shields.io/badge/Portfolio-GitHub_Projects-181717?style=flat&logo=github&logoColor=white" alt="GitHub project portfolio" />
+  <a href="https://kxh-agent-portfolio.netlify.app/#contact">
+    <img src="https://img.shields.io/badge/Project_Inquiry-Describe_Your_Project-006B57?style=flat&logo=netlify&logoColor=white" alt="Open the private project inquiry form" />
   </a>
 </p>
