@@ -117,7 +117,7 @@ A deployed field-mission planning system that turns natural-language requirement
 
 ## Open-Source Engineering Evidence
 
-Five focused contributions have been accepted by established AI agent and developer-tool projects. Personal repository work is excluded from this count.
+Six focused contributions have been accepted by established AI agent and developer-tool projects. Personal repository work is excluded from this count.
 
 | Project | Contribution | Outcome |
 |:--|:--|:--|
@@ -126,6 +126,7 @@ Five focused contributions have been accepted by established AI agent and develo
 | [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. | Merged with authorship retained |
 | [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | Merged |
 | [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | Merged |
+| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | Preserved the provider-selected response model on inference spans without overwriting the requested model. | Merged |
 
 ## Start a Project
 
