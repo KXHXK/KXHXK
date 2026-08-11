@@ -117,7 +117,7 @@ A deployed field-mission planning system that turns natural-language requirement
 
 ## Open-Source Engineering Evidence
 
-Six focused contributions have been accepted by established AI agent and developer-tool projects. Personal repository work is excluded from this count.
+Seven focused contributions have been accepted by established AI agent and developer-tool projects. Personal repository work is excluded from this count.
 
 | Project | Contribution | Outcome |
 |:--|:--|:--|
@@ -127,6 +127,7 @@ Six focused contributions have been accepted by established AI agent and develop
 | [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | Merged |
 | [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | Merged |
 | [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | Preserved the provider-selected response model on inference spans without overwriting the requested model. | Merged |
+| [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | Corrected interoperability test topology by excluding unsupported Go v0.3 HTTP/JSON scenarios while preserving valid JSON-RPC and gRPC coverage. | Merged |
 
 ## Start a Project
 
