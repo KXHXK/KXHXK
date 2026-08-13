@@ -119,16 +119,16 @@ A deployed field-mission planning system that turns natural-language requirement
 
 Eight focused contributions have been accepted by established AI agent and developer-tool projects. Personal repository work is excluded from this count.
 
-| Project | Contribution | Outcome |
+| Project | Contribution | Stars |
 |:--|:--|:--|
-| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. | Merged |
-| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. | Merged |
-| [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. | Merged with authorship retained |
-| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | Merged |
-| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | Merged |
-| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | Preserved the provider-selected response model on inference spans without overwriting the requested model. | Merged |
-| [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | Corrected interoperability test topology by excluding unsupported Go v0.3 HTTP/JSON scenarios while preserving valid JSON-RPC and gRPC coverage. | Merged |
-| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. | Merged |
+| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. | 50,421 |
+| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | 28,918 |
+| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | Preserved the provider-selected response model on inference spans without overwriting the requested model. | 27,181 |
+| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. | 12,775 |
+| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. | 8,914 |
+| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | 6,902 |
+| [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. | 4,095 |
+| [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | Corrected interoperability test topology by excluding unsupported Go v0.3 HTTP/JSON scenarios while preserving valid JSON-RPC and gRPC coverage. | 472 |
 
 ## Start a Project
 
