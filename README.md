@@ -1,141 +1,138 @@
-<h1 align="center">Full-Stack Software Development</h1>
+<h1 align="center">🧠 AI Agent Engineering</h1>
 
 <p align="center">
-  Web applications, backend APIs, AI automation, desktop tools, and production-minded delivery.
+  Building reliable Agent runtimes, typed semantic harnesses, tool and knowledge boundaries,<br/>
+  evaluation pipelines, failure recovery, and full-stack systems that make model behavior verifiable.
 </p>
 
 <p align="center">
   <a href="https://kxh-agent-portfolio.netlify.app/">
-    <img src="https://img.shields.io/badge/Delivery_Portfolio-View_Projects-006B57?style=flat&logo=netlify&logoColor=white" alt="Software delivery portfolio" />
+    <img src="https://img.shields.io/badge/AI_Agent_Portfolio-Engineering_Evidence-006B57?style=for-the-badge&logo=netlify&logoColor=white" alt="AI Agent engineering portfolio" />
   </a>
-  <a href="https://github.com/KXHXK?tab=repositories">
-    <img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=flat&logo=github&logoColor=white" alt="GitHub repositories" />
+  <a href="https://github.com/KXHXK/opercerta">
+    <img src="https://img.shields.io/badge/OperCerta-Agent_Runtime-111916?style=for-the-badge&logo=github&logoColor=white" alt="OperCerta repository" />
+  </a>
+  <a href="https://github.com/KXHXK/fieldpilot">
+    <img src="https://img.shields.io/badge/FieldPilot-Typed_Harness-2B6F62?style=for-the-badge&logo=github&logoColor=white" alt="FieldPilot repository" />
   </a>
 </p>
 
-## What I Build
+## 🔬 Featured Agent Systems
+
+### 🛡️ [OperCerta](https://github.com/KXHXK/opercerta) — Controlled Agent Runtime
+
+A recoverable, evaluable, and auditable Agent runtime for operational workflows.
+
+- Single-root **LangGraph Agent Loop**: Model → ToolPolicy → MCP Observation → Model
+- Typed Context/State, PostgreSQL Checkpoint/Replay, HITL approval binding, fact re-fetch, Verifier, and idempotent writes
+- FastAPI, FastMCP, PostgreSQL/pgvector, Redis, React/SSE, OpenTelemetry, Docker, and CI
+- Evidence: **42/42** fixed business contracts, **9/9** safe recovery traces, and **0 duplicate work orders** across 20 × 10 concurrent writes
+- Redis reduced repeated MCP reads from **10 to 2 (-80%)**; fixed local scenarios reduced P50 by **58%–61%**
+- 🌐 [Engineering showcase](https://opercerta-kxh.netlify.app) · 💻 [Source code](https://github.com/KXHXK/opercerta)
+
+### 🧭 [FieldPilot](https://github.com/KXHXK/fieldpilot) — Typed Semantic Harness
+
+A cross-city field-mission Agent that isolates LLM uncertainty at the natural-language boundary.
+
+- A no-tool **PydanticAI Harness** converts untrusted text into a strict, confirmable MissionDraft
+- Deterministic postchecks recompute clarifications, safety labels, and date normalization
+- Bounded Beam Planner, Policy Engine, Independent Verifier, ExecutionCheckpoint, and suffix-only replanning
+- Idempotent AgentRun, input fingerprints, usage limits, auditable traces, and no-fallback live evaluation gates
+- Evidence: **15/15 Kimi K2.6 live**, state/safety **100%**, field precision **94.87%**, clarification precision **93.33%**
+- 🌐 [Project showcase](https://fieldpilot-kxh.netlify.app/) · 💻 [Source code](https://github.com/KXHXK/fieldpilot)
+
+## 🧩 Agent Engineering Focus
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### Web Products and Admin Tools
+### 🔁 Runtime & State
 
-Responsive customer portals, operational dashboards, internal tools, and data-rich interfaces built with React, Vue, and TypeScript.
+Agent Loop, Context/State, Checkpoint/Replay, human approval, failure recovery, concurrency control, and idempotent side effects.
 
 </td>
 <td width="50%" valign="top">
 
-### APIs and Business Systems
+### 🔌 Tools & Knowledge
 
-FastAPI services, PostgreSQL and Redis data layers, authentication boundaries, third-party integrations, and observable backend workflows.
+Tool Calling, MCP, RAG, hybrid retrieval, citations, permission boundaries, policy checks, caching, and external provider ports.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### AI and Workflow Automation
+### 📏 Evaluation & Observability
 
-LLM applications, agent orchestration, MCP tools, retrieval, human approval, evaluation, and controlled business automation.
+Versioned datasets, deterministic contracts, live-model gates, Trace, failure replay, latency/cost analysis, and regression tests.
 
 </td>
 <td width="50%" valign="top">
 
-### Desktop and Data Engineering
+### 🧱 Full-Stack Productization
 
-C# Windows utilities, serial and device communication, report generation, MATLAB signal processing, and technical visualization.
+FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment, and operational documentation.
 
 </td>
 </tr>
 </table>
 
-## Delivery Approach
-
-- **Scope before implementation:** clarify users, workflows, integrations, constraints, and acceptance criteria.
-- **Visible milestones:** deliver working increments instead of hiding progress until the end.
-- **Engineering evidence:** use automated tests, repeatable demos, logs, metrics, and CI where appropriate.
-- **Deployment and handoff:** provide reproducible environments, operational notes, and maintainable source code.
-- **Privacy by default:** public demos use synthetic or redacted data and never expose client credentials or internal systems.
-
-## Featured Work
-
-### [OperCerta](https://github.com/KXHXK/opercerta)
-
-An auditable full-stack operations system for inventory exceptions, equipment alerts, and human-approved work orders.
-
-- Bounded LangGraph workflows, FastMCP tools, policy checks, approval checkpoints, restart recovery, and idempotent writes.
-- FastAPI, PostgreSQL, pgvector, Redis, OpenTelemetry, React, Docker, deterministic evaluation, and CI.
-- [Open the engineering showcase](https://opercerta-kxh.netlify.app)
-
-### [FieldPilot](https://github.com/KXHXK/fieldpilot)
-
-A deployed field-mission planning system that turns natural-language requirements into confirmed missions, verified plans, and revision evidence.
-
-- Typed AI intake, bounded planning, policy validation, checkpointed execution, and suffix-only replanning.
-- Python APIs, TypeScript workbench, PostgreSQL, cloud deployment, live evaluation, and reproducible public demos.
-- [Open the project showcase](https://fieldpilot-kxh.netlify.app/)
-
-### Additional Engineering Projects
-
-- **[HelloAgents Trip Planner](https://github.com/KXHXK/helloagents-trip-planner):** multi-agent travel planning with FastAPI, Vue 3, TypeScript, and external APIs.
-- **[Serial Port Assistant](https://github.com/KXHXK/Serial)** and **[KLS Serial Utility](https://github.com/KXHXK/kls-serial-utility):** C# Windows communication and protocol-testing tools.
-- **[MATLAB Imaging Tools](https://github.com/KXHXK/matlab-imaging-tools):** sensor-frame parsing, signal imaging, trajectories, and 3D visualization.
-- **[PDF Report Generator](https://github.com/KXHXK/pdf-report-generator):** C# report generation for text, images, JSON, tables, watermarks, and pagination.
-
-## Technology
+## 🛠️ Technology Stack
 
 <div align="center">
 
-**Languages**
+**Agent / AI**
+
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![PydanticAI](https://img.shields.io/badge/PydanticAI-E92063?style=flat&logo=pydantic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
+![RAG](https://img.shields.io/badge/RAG-2B6F62?style=flat)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
+
+**Languages / Application**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=flat&logo=dotnet&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white)
-
-**Application and AI**
-
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Vue.js](https://img.shields.io/badge/Vue.js-35495E?style=flat&logo=vuedotjs&logoColor=4FC08D)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
-![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=flat&logo=pydantic&logoColor=white)
 
-**Data and Delivery**
+**Data / Delivery**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat&logo=redis&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat&logo=opentelemetry&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=flat&logo=netlify&logoColor=white)
+![Render](https://img.shields.io/badge/Render-000000?style=flat&logo=render&logoColor=white)
 
 </div>
 
-## Open-Source Engineering Evidence
+## 🌍 Upstream Open-Source Engineering
 
-Eight focused contributions have been accepted by established AI agent and developer-tool projects. Personal repository work is excluded from this count.
+**Eight focused contributions are merged** in established Agent and developer-tool projects. Personal repository work is excluded.
 
-| Project | Stars | Contribution |
-|:--|:--|:--|
-| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
-| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
-| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. |
-| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 12.8k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. |
-| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. |
-| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | 6.9k | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. |
-| [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | 4.1k | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. |
-| [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | 0.5k | Corrected interoperability test topology by excluding unsupported Go v0.3 HTTP/JSON scenarios while preserving valid JSON-RPC and gRPC coverage. |
+| Project | Stars | Engineering contribution | Status |
+|:--|:--:|:--|:--:|
+| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. | ✅ Merged |
+| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | ✅ Merged |
+| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. | ✅ Merged |
+| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 12.8k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. | ✅ Merged |
+| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. | ✅ Merged |
+| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | 6.9k | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | ✅ Merged |
+| [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | 4.1k | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. | ✅ Merged |
+| [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | 0.5k | Corrected interoperability test topology while preserving valid JSON-RPC and gRPC coverage. | ✅ Merged |
 
-## Start a Project
+## 📐 Engineering Principles
 
-The best first message includes the business goal, target users, current workflow, required integrations, expected timeline, and any technical constraints. Please do not send passwords, production credentials, confidential datasets, or proprietary source code in an initial inquiry.
+- 🧠 **The model handles ambiguity; deterministic code decides correctness and side effects.**
+- 🧾 **Metrics need datasets, scripts, runtime conditions, and commits—not just screenshots.**
+- 🔒 **Public demos use synthetic or redacted data and expose no credentials or private systems.**
+- 🧪 **Failure recovery, idempotency, policy checks, and evaluation are product behavior.**
+- 🧱 **Agent engineering includes APIs, state, data, UI, deployment, and operations—not only model calls.**
 
-<p align="center">
-  <a href="https://kxh-agent-portfolio.netlify.app/#contact">
-    <img src="https://img.shields.io/badge/Project_Inquiry-Describe_Your_Project-006B57?style=flat&logo=netlify&logoColor=white" alt="Open the private project inquiry form" />
-  </a>
-</p>
+## 🛰️ Broader Systems Background
+
+Beyond Agent systems, repositories include C# serial/device communication tools, MATLAB signal-processing and imaging utilities, PDF report generation, and full-stack Web applications. These projects provide the systems, data, debugging, and delivery foundation behind the Agent work.
