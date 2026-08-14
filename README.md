@@ -6,6 +6,10 @@
 </p>
 
 <p align="center">
+  <img src="./assets/agent-engineering-loop.gif" width="100%" alt="Animated Agent engineering loop from input and model reasoning through tools, state, verification, and trace" />
+</p>
+
+<p align="center">
   <a href="https://kxh-agent-portfolio.netlify.app/">
     <img src="https://img.shields.io/badge/AI_Agent_Portfolio-Engineering_Evidence-006B57?style=for-the-badge&logo=netlify&logoColor=white" alt="AI Agent engineering portfolio" />
   </a>
