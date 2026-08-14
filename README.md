@@ -112,7 +112,7 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ## 🌍 Upstream Open-Source Engineering
 
-**Eight focused contributions are merged** in established Agent and developer-tool projects. Personal repository work is excluded.
+**Nine focused contributions are merged** in established Agent and developer-tool projects. Personal repository work is excluded.
 
 | Project | Stars | Engineering contribution | Status |
 |:--|:--:|:--|:--:|
@@ -120,6 +120,7 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 | [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | ✅ Merged |
 | [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. | ✅ Merged |
 | [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 12.8k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. | ✅ Merged |
+| [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 12.6k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. | ✅ Merged |
 | [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. | ✅ Merged |
 | [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | 6.9k | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | ✅ Merged |
 | [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | 4.1k | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. | ✅ Merged |
