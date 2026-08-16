@@ -112,10 +112,11 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ## 🌍 Upstream Open-Source Engineering
 
-**Ten focused contributions are merged** in established Agent and developer-tool projects. Personal repository work is excluded.
+**Eleven focused contributions are merged** in established Agent and developer-tool projects. Personal repository work is excluded.
 
 | Project | Stars | Engineering contribution | Status |
 |:--|:--:|:--|:--:|
+| [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 80.1k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. | ✅ Merged |
 | [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. | ✅ Merged |
 | [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | ✅ Merged |
 | [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. | ✅ Merged |
