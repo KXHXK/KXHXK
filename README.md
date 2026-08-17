@@ -112,7 +112,7 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ## 🌍 Upstream Open-Source Engineering
 
-**Twelve contributions have been accepted upstream** across established Agent and developer-tool projects: 11 directly merged PRs plus one Langroid fix merged through a maintainer PR with authorship retained. Personal repository work is excluded.
+**Thirteen contributions have been accepted upstream** across established Agent and developer-tool projects: 12 directly merged PRs plus one Langroid fix merged through a maintainer PR with authorship retained. Personal repository work is excluded.
 
 | Project | Stars | Engineering contribution |
 |:--|:--:|:--|
@@ -120,6 +120,7 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 | [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
 | [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
 | [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. |
+| [Haystack #12327](https://github.com/deepset-ai/haystack/pull/12327) | 26.2k | Added static type checking for Agent state tests so state-schema regressions are caught during CI. |
 | [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 12.8k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. |
 | [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 12.6k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. |
 | [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. |
@@ -131,11 +132,11 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ### Current PR Status
 
-As of **August 17, 2026**, 31 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+As of **August 17, 2026**, 30 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
 
 | Pull request | Current state | Next step |
 |:--|:--|:--|
-| [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Four review findings addressed; automated re-review is running | Await re-review |
+| [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Re-review reports no blockers and leaves three non-blocking suggestions | Await maintainer direction |
 | [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
 | [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Human evidence completed; ready for review | Await maintainer review |
 | [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | Mergeable with required checks passing | Complete CLA signature, then await review |
