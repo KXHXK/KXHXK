@@ -112,21 +112,34 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ## 🌍 Upstream Open-Source Engineering
 
-**Eleven focused contributions are merged** in established Agent and developer-tool projects. Personal repository work is excluded.
+**Twelve contributions have been accepted upstream** across established Agent and developer-tool projects: 11 directly merged PRs plus one Langroid fix merged through a maintainer PR with authorship retained. Personal repository work is excluded.
 
-| Project | Stars | Engineering contribution | Status |
-|:--|:--:|:--|:--:|
-| [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 80.1k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. | ✅ Merged |
-| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. | ✅ Merged |
-| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. | ✅ Merged |
-| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. | ✅ Merged |
-| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 12.8k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. | ✅ Merged |
-| [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 12.6k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. | ✅ Merged |
-| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. | ✅ Merged |
-| [OGX #6395](https://github.com/ogx-ai/ogx/pull/6395) | 8.4k | Documented supported search rankers in the generated API schema and added regression coverage for the description contract. | ✅ Merged |
-| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | 6.9k | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. | ✅ Merged |
-| [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | 4.1k | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result. | ✅ Merged |
-| [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | 0.5k | Corrected interoperability test topology while preserving valid JSON-RPC and gRPC coverage. | ✅ Merged |
+| Project | Stars | Engineering contribution |
+|:--|:--:|:--|
+| [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 80.1k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. |
+| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
+| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
+| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. |
+| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 12.8k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. |
+| [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 12.6k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. |
+| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. |
+| [OGX #6395](https://github.com/ogx-ai/ogx/pull/6395) | 8.4k | Documented supported search rankers in the generated API schema and added regression coverage for the description contract. |
+| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | 6.9k | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. |
+| [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | 4.1k | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result; the maintainer PR retained KXH authorship. |
+| [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | 0.5k | Corrected interoperability test topology while preserving valid JSON-RPC and gRPC coverage. |
+| [DevOps AI Toolkit / dot-ai #754](https://github.com/vfarcic/dot-ai/pull/754) | 0.3k | Fixed local embedding-model configuration in both normal and prefetched Helm paths, including the maintainer-requested test refinement. |
+
+### Current PR Status
+
+As of **August 17, 2026**, 31 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+
+| Pull request | Current state | Next step |
+|:--|:--|:--|
+| [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Four review findings addressed; automated re-review is running | Await re-review |
+| [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
+| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Human evidence completed; ready for review | Await maintainer review |
+| [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | Mergeable with required checks passing | Complete CLA signature, then await review |
+| [Mastra #21368](https://github.com/mastra-ai/mastra/pull/21368) | Requested changes addressed; no unresolved threads | Await re-review |
 
 ## 📐 Engineering Principles
 
