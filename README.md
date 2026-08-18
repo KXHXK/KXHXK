@@ -132,13 +132,14 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ### Current PR Status
 
-As of **August 17, 2026**, 30 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+As of **August 18, 2026**, 30 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
 
 | Pull request | Current state | Next step |
 |:--|:--|:--|
 | [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Re-review reports no blockers and leaves three non-blocking suggestions | Await maintainer direction |
 | [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
 | [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Human evidence completed; ready for review | Await maintainer review |
+| [OpenHands #16116](https://github.com/OpenHands/OpenHands/pull/16116) | Code CI passes; linked issue needs maintainer-controlled readiness label | Await maintainer label and review |
 | [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | Mergeable with required checks passing | Complete CLA signature, then await review |
 | [Mastra #21368](https://github.com/mastra-ai/mastra/pull/21368) | Requested changes addressed; no unresolved threads | Await re-review |
 
