@@ -112,7 +112,7 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ## 🌍 Upstream Open-Source Engineering
 
-**Thirteen contributions have been accepted upstream** across established Agent and developer-tool projects: 12 directly merged PRs plus one Langroid fix merged through a maintainer PR with authorship retained. Personal repository work is excluded.
+**Fourteen contributions have been accepted upstream** across established Agent and developer-tool projects: 12 directly merged PRs plus two fixes merged through maintainer PRs with authorship retained. Personal repository work is excluded.
 
 | Project | Stars | Engineering contribution |
 |:--|:--:|:--|
@@ -125,20 +125,21 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 | [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 12.6k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. |
 | [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. |
 | [OGX #6395](https://github.com/ogx-ai/ogx/pull/6395) | 8.4k | Documented supported search rankers in the generated API schema and added regression coverage for the description contract. |
-| [Strands Agents Harness SDK #3627](https://github.com/strands-agents/harness-sdk/pull/3627) | 6.9k | Preserved token usage from hook-retried model calls so cost reporting and invocation limits remain accurate. |
+| [Strands Agents Harness SDK #3627 / #3829](https://github.com/strands-agents/harness-sdk/pull/3829) | 7.0k | Preserved usage from hook-retried model calls, then contributed the credited OpenRouter examples used by the maintainer's scalable provider-documentation design. |
 | [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | 4.1k | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result; the maintainer PR retained KXH authorship. |
 | [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | 0.5k | Corrected interoperability test topology while preserving valid JSON-RPC and gRPC coverage. |
 | [DevOps AI Toolkit / dot-ai #754](https://github.com/vfarcic/dot-ai/pull/754) | 0.3k | Fixed local embedding-model configuration in both normal and prefetched Helm paths, including the maintainer-requested test refinement. |
 
 ### Current PR Status
 
-As of **August 18, 2026**, 30 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+As of **August 20, 2026**, 30 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
 
 | Pull request | Current state | Next step |
 |:--|:--|:--|
 | [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Re-review reports no blockers and leaves three non-blocking suggestions | Await maintainer direction |
 | [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
 | [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Human evidence completed; ready for review | Await maintainer review |
+| [OpenHands #16115](https://github.com/OpenHands/OpenHands/pull/16115) | Maintainer feedback addressed; focused tests and file checks pass | Await refreshed CI and re-review |
 | [OpenHands #16116](https://github.com/OpenHands/OpenHands/pull/16116) | Code CI passes; linked issue needs maintainer-controlled readiness label | Await maintainer label and review |
 | [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | CLA signed; mergeable with required checks passing | Await maintainer review |
 | [Mastra #21368](https://github.com/mastra-ai/mastra/pull/21368) | Requested changes addressed; no unresolved threads | Await re-review |
