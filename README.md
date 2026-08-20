@@ -112,10 +112,11 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ## 🌍 Upstream Open-Source Engineering
 
-**Fourteen contributions have been accepted upstream** across established Agent and developer-tool projects: 12 directly merged PRs plus two fixes merged through maintainer PRs with authorship retained. Personal repository work is excluded.
+**Fifteen contributions have been accepted upstream** across established Agent and developer-tool projects: 13 directly merged PRs plus two fixes merged through maintainer PRs with authorship retained. Personal repository work is excluded.
 
 | Project | Stars | Engineering contribution |
 |:--|:--:|:--|
+| [OpenHands #16115](https://github.com/OpenHands/OpenHands/pull/16115) | 84.6k | Kept modal actions visible for long skill descriptions by moving scrolling to the content pane, then hardened clipping, wrapping, newline preservation, padding, and scroll containment through maintainer review. |
 | [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 80.1k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. |
 | [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
 | [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
@@ -132,14 +133,13 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ### Current PR Status
 
-As of **August 20, 2026**, 30 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+As of **August 20, 2026**, 28 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
 
 | Pull request | Current state | Next step |
 |:--|:--|:--|
 | [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Re-review reports no blockers and leaves three non-blocking suggestions | Await maintainer direction |
 | [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
 | [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Human evidence completed; ready for review | Await maintainer review |
-| [OpenHands #16115](https://github.com/OpenHands/OpenHands/pull/16115) | Maintainer feedback addressed; focused tests and file checks pass | Await refreshed CI and re-review |
 | [OpenHands #16116](https://github.com/OpenHands/OpenHands/pull/16116) | Code CI passes; linked issue needs maintainer-controlled readiness label | Await maintainer label and review |
 | [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | CLA signed; mergeable with required checks passing | Await maintainer review |
 | [Mastra #21368](https://github.com/mastra-ai/mastra/pull/21368) | Requested changes addressed; no unresolved threads | Await re-review |
