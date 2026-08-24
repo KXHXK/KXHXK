@@ -133,13 +133,16 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ### Current PR Status
 
-As of **August 20, 2026**, 28 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+As of **August 24, 2026**, 29 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
 
 | Pull request | Current state | Next step |
 |:--|:--|:--|
+| [AG-UI #2503](https://github.com/ag-ui-protocol/ag-ui/pull/2503) | Maintainer-approved O(1) session lookup; mergeable with 18 focused tests passing | Await maintainer review and external-PR CI handling |
+| [Microsoft AI Agents for Beginners #724](https://github.com/microsoft/ai-agents-for-beginners/pull/724) | Mergeable; CLA and all current checks pass | Await maintainer review |
 | [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Re-review reports no blockers and leaves three non-blocking suggestions | Await maintainer direction |
 | [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
-| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Human evidence completed; ready for review | Await maintainer review |
+| [OpenHands #16112](https://github.com/OpenHands/OpenHands/pull/16112) | Accessible UI evidence added; description validation and code CI pass | Await maintainer review |
+| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Implementation and evidence are complete; linked issue lost its maintainer-controlled readiness label under the new policy | Await maintainer confirmation, label, and review |
 | [OpenHands #16116](https://github.com/OpenHands/OpenHands/pull/16116) | Code CI passes; linked issue needs maintainer-controlled readiness label | Await maintainer label and review |
 | [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | CLA signed; mergeable with required checks passing | Await maintainer review |
 | [Mastra #21368](https://github.com/mastra-ai/mastra/pull/21368) | Requested changes addressed; no unresolved threads | Await re-review |
