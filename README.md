@@ -112,18 +112,19 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ## 🌍 Upstream Open-Source Engineering
 
-**Fifteen contributions have been accepted upstream** across established Agent and developer-tool projects: 13 directly merged PRs plus two fixes merged through maintainer PRs with authorship retained. Personal repository work is excluded.
+**Sixteen contributions have been accepted upstream** across established Agent and developer-tool projects: 14 directly merged PRs plus two fixes merged through maintainer PRs with authorship retained. Personal repository work is excluded.
 
 | Project | Stars | Engineering contribution |
 |:--|:--:|:--|
-| [OpenHands #16115](https://github.com/OpenHands/OpenHands/pull/16115) | 84.6k | Kept modal actions visible for long skill descriptions by moving scrolling to the content pane, then hardened clipping, wrapping, newline preservation, padding, and scroll containment through maintainer review. |
-| [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 80.1k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. |
-| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 50.4k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
-| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 28.9k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
-| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.2k | Preserved the provider-selected response model on inference spans without overwriting the requested model. |
-| [Haystack #12327](https://github.com/deepset-ai/haystack/pull/12327) | 26.2k | Added static type checking for Agent state tests so state-schema regressions are caught during CI. |
-| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 12.8k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. |
-| [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 12.6k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. |
+| [OpenHands #16115](https://github.com/OpenHands/OpenHands/pull/16115) | 85.2k | Kept modal actions visible for long skill descriptions by moving scrolling to the content pane, then hardened clipping, wrapping, newline preservation, padding, and scroll containment through maintainer review. |
+| [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 81.0k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. |
+| [Microsoft AI Agents for Beginners #724](https://github.com/microsoft/ai-agents-for-beginners/pull/724) | 73.3k | Scoped MCP event replay to the stream owning the supplied event ID, covered interleaved and unknown-ID boundaries, and synchronized the lesson example. |
+| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 51.1k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
+| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 29.8k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
+| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.5k | Preserved the provider-selected response model on inference spans without overwriting the requested model. |
+| [Haystack #12327](https://github.com/deepset-ai/haystack/pull/12327) | 26.3k | Added static type checking for Agent state tests so state-schema regressions are caught during CI. |
+| [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 14.7k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. |
+| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 13.1k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. |
 | [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 8.9k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. |
 | [OGX #6395](https://github.com/ogx-ai/ogx/pull/6395) | 8.4k | Documented supported search rankers in the generated API schema and added regression coverage for the description contract. |
 | [Strands Agents Harness SDK #3627 / #3829](https://github.com/strands-agents/harness-sdk/pull/3829) | 7.0k | Preserved usage from hook-retried model calls, then contributed the credited OpenRouter examples used by the maintainer's scalable provider-documentation design. |
@@ -133,19 +134,17 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ### Current PR Status
 
-As of **August 24, 2026**, 29 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+As of **August 27, 2026**, 26 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
 
 | Pull request | Current state | Next step |
 |:--|:--|:--|
 | [AG-UI #2503](https://github.com/ag-ui-protocol/ag-ui/pull/2503) | Maintainer-approved O(1) session lookup; mergeable with 18 focused tests passing | Await maintainer review and external-PR CI handling |
-| [Microsoft AI Agents for Beginners #724](https://github.com/microsoft/ai-agents-for-beginners/pull/724) | Mergeable; CLA and all current checks pass | Await maintainer review |
-| [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Re-review reports no blockers and leaves three non-blocking suggestions | Await maintainer direction |
+| [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | Mergeable; refreshed automated review reports no blockers and suggestion-level findings only | Await maintainer direction and clearance of the earlier review state |
 | [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
-| [OpenHands #16112](https://github.com/OpenHands/OpenHands/pull/16112) | Accessible UI evidence added; description validation and code CI pass | Await maintainer review |
-| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Implementation and evidence are complete; linked issue lost its maintainer-controlled readiness label under the new policy | Await maintainer confirmation, label, and review |
+| [OpenHands #16112](https://github.com/OpenHands/OpenHands/pull/16112) | Rebased implementation and evidence are complete; linked issue lost its maintainer-controlled readiness label under the new policy | Await maintainer confirmation, label, and review |
+| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Mergeable with focused and platform checks passing; linked issue needs its maintainer-controlled readiness label | Await maintainer confirmation, label, and review |
 | [OpenHands #16116](https://github.com/OpenHands/OpenHands/pull/16116) | Code CI passes; linked issue needs maintainer-controlled readiness label | Await maintainer label and review |
 | [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | CLA signed; mergeable with required checks passing | Await maintainer review |
-| [Mastra #21368](https://github.com/mastra-ai/mastra/pull/21368) | Requested changes addressed; no unresolved threads | Await re-review |
 
 ## 📐 Engineering Principles
 
