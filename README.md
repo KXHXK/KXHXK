@@ -114,40 +114,41 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 **Eighteen contributions have been accepted upstream** across established Agent and developer-tool projects: 16 directly merged PRs plus two fixes merged through maintainer PRs with authorship retained. Personal repository work is excluded.
 
-| Project | Stars | Engineering contribution |
+| Project | Stars | Contribution |
 |:--|:--:|:--|
-| [MCP Servers #4638](https://github.com/modelcontextprotocol/servers/pull/4638) | 90.0k | Resolved canonically equivalent Unicode path components without weakening the filesystem server's realpath allowlist boundary, while rejecting ambiguous matches. |
-| [OpenHands #16115](https://github.com/OpenHands/OpenHands/pull/16115) | 85.6k | Kept modal actions visible for long skill descriptions by moving scrolling to the content pane, then hardened clipping, wrapping, newline preservation, padding, and scroll containment through maintainer review. |
-| [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 81.1k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. |
-| [Microsoft AI Agents for Beginners #724](https://github.com/microsoft/ai-agents-for-beginners/pull/724) | 73.5k | Scoped MCP event replay to the stream owning the supplied event ID, covered interleaved and unknown-ID boundaries, and synchronized the lesson example. |
-| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 51.2k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
-| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 30.1k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
-| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 27.5k | Preserved the provider-selected response model on inference spans without overwriting the requested model. |
-| [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | 27.5k | Enabled headless sessions to infer keyless Vertex AI ADC from project and model environment signals, with precedence and negative regression coverage. |
-| [Haystack #12327](https://github.com/deepset-ai/haystack/pull/12327) | 26.3k | Added static type checking for Agent state tests so state-schema regressions are caught during CI. |
-| [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 14.8k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. |
-| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 13.2k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. |
-| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 9.0k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. |
+| [MCP Servers #4638](https://github.com/modelcontextprotocol/servers/pull/4638) | 90.3k | Resolved canonically equivalent Unicode path components without weakening the filesystem server's realpath allowlist boundary, while rejecting ambiguous matches. |
+| [OpenHands #16115](https://github.com/OpenHands/OpenHands/pull/16115) | 87.8k | Kept modal actions visible for long skill descriptions by moving scrolling to the content pane, then hardened clipping, wrapping, newline preservation, padding, and scroll containment through maintainer review. |
+| [DeerFlow #4804](https://github.com/bytedance/deer-flow/pull/4804) | 82.4k | Scoped bootstrap memory reads and writes to the selected custom Agent instead of leaking setup facts into the default memory bucket, with regression coverage. |
+| [Microsoft AI Agents for Beginners #724](https://github.com/microsoft/ai-agents-for-beginners/pull/724) | 74.6k | Scoped MCP event replay to the stream owning the supplied event ID, covered interleaved and unknown-ID boundaries, and synchronized the lesson example. |
+| [Cherry Studio #18475](https://github.com/CherryHQ/cherry-studio/pull/18475) | 51.8k | Removed a duplicate workspace-list request after creation while preserving the existing mutation-owned refresh and workspace selection flow. |
+| [AgentScope #2178](https://github.com/agentscope-ai/agentscope/pull/2178) | 31.6k | Kept tool-response error states sticky across later interrupted or denied chunks and added regression coverage. |
+| [Mastra #21154](https://github.com/mastra-ai/mastra/pull/21154) | 28.0k | Preserved the provider-selected response model on inference spans without overwriting the requested model. |
+| [Qwen Code #9045](https://github.com/QwenLM/qwen-code/pull/9045) | 27.8k | Enabled headless sessions to infer keyless Vertex AI ADC from project and model environment signals, with precedence and negative regression coverage. |
+| [Haystack #12327](https://github.com/deepset-ai/haystack/pull/12327) | 26.5k | Added static type checking for Agent state tests so state-schema regressions are caught during CI. |
+| [OpenSandbox #1519](https://github.com/opensandbox-group/OpenSandbox/pull/1519) | 15.2k | Replenished stale idle sandbox slots immediately after asynchronous cleanup and added deterministic Kotlin regression coverage. |
+| [Microsoft Agent Framework #7324](https://github.com/microsoft/agent-framework/pull/7324) | 13.5k | Preserved table binding across consecutive declarative `EditTable` operations and added regression coverage. |
+| [local-deep-research #5269](https://github.com/LearningCircuit/local-deep-research/pull/5269) | 9.1k | Unified Zotero progress and error feedback while preserving accessibility and XSS-safe rendering. |
 | [OGX #6395](https://github.com/ogx-ai/ogx/pull/6395) | 8.4k | Documented supported search rankers in the generated API schema and added regression coverage for the description contract. |
-| [Strands Agents Harness SDK #3627 / #3829](https://github.com/strands-agents/harness-sdk/pull/3829) | 7.1k | Preserved usage from hook-retried model calls, then contributed the credited OpenRouter examples used by the maintainer's scalable provider-documentation design. |
+| [Strands Agents Harness SDK #3627 / #3829](https://github.com/strands-agents/harness-sdk/pull/3829) | 7.2k | Preserved usage from hook-retried model calls, then contributed the credited OpenRouter examples used by the maintainer's scalable provider-documentation design. |
 | [Langroid #1072](https://github.com/langroid/langroid/pull/1072) | 4.1k | Fixed concurrent result selection so a fast empty result cannot cancel a slower valid result; the maintainer PR retained KXH authorship. |
 | [A2A Java #999](https://github.com/a2aproject/a2a-java/pull/999) | 0.5k | Corrected interoperability test topology while preserving valid JSON-RPC and gRPC coverage. |
 | [DevOps AI Toolkit / dot-ai #754](https://github.com/vfarcic/dot-ai/pull/754) | 0.3k | Fixed local embedding-model configuration in both normal and prefetched Helm paths, including the maintainer-requested test refinement. |
 
 ### Current PR Status
 
-As of **August 30, 2026**, 24 external PRs remain open. The recently active review queue is summarized below; the remaining PRs have no unanswered maintainer request.
+As of **September 14, 2026**, **22 external PRs remain open** and **11 are closed without a direct merge**. There have been no new merges since the previous audit. All open PRs are conflict-free; maintainer reviews and known CI or authorization gates remain. No new unanswered review request was found.
+
+IBM #5913 was closed as a duplicate of an earlier PR. LobeHub #18260 was closed after upstream #19190 shipped the same group-member fix and regression coverage. Neither is counted as an accepted contribution. Qwen Code #9045 has shipped in v0.23.0.
 
 | Pull request | Current state | Next step |
 |:--|:--|:--|
 | [AG-UI #2503](https://github.com/ag-ui-protocol/ag-ui/pull/2503) | Maintainer-approved O(1) session lookup; mergeable with 18 focused tests passing | Await maintainer review and external-PR CI handling |
-| [LobeHub #18260](https://github.com/lobehub/lobehub/pull/18260) | Updated from `canary`; maintainer edits enabled | Await maintainer-owned CI and review |
 | [OpenHands #16112](https://github.com/OpenHands/OpenHands/pull/16112) | Rebased implementation and evidence are complete; linked issue lost its maintainer-controlled readiness label under the new policy | Await maintainer confirmation, label, and review |
-| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Mergeable with focused and platform checks passing; linked issue needs its maintainer-controlled readiness label | Await maintainer confirmation, label, and review |
+| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Focused and platform checks pass; readiness label and the previously recorded Mock-LLM suite timeout remain blocking | Await maintainer confirmation, label, and review |
 | [OpenHands #16116](https://github.com/OpenHands/OpenHands/pull/16116) | Code CI passes; linked issue needs maintainer-controlled readiness label | Await maintainer label and review |
-| [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | CLA signed; mergeable with required checks passing | Await maintainer review |
-| [AgentOps #1431](https://github.com/AgentOps-AI/agentops/pull/1431) | Cancellation cleanup review addressed; context and span now close exactly once | Await CI and re-review |
-| [AgentOps #1435](https://github.com/AgentOps-AI/agentops/pull/1435) | Cancellation status review addressed; finalization no longer overwrites ERROR with OK | Await CI and re-review |
+| [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | Reopened by a maintainer after base-branch deletion; checks pass and the PR is conflict-free | Await maintainer review |
+| [AgentOps #1431](https://github.com/AgentOps-AI/agentops/pull/1431) | Cancellation cleanup review addressed; context and span now close exactly once | Peer re-review confirmed the fix; await maintainer review |
+| [AgentOps #1435](https://github.com/AgentOps-AI/agentops/pull/1435) | Cancellation status review addressed; finalization no longer overwrites ERROR with OK | Peer re-review confirmed the fix; await maintainer review |
 
 ## 📐 Engineering Principles
 
@@ -160,3 +161,4 @@ As of **August 30, 2026**, 24 external PRs remain open. The recently active revi
 ## 🛰️ Broader Systems Background
 
 Beyond Agent systems, repositories include C# serial/device communication tools, MATLAB signal-processing and imaging utilities, PDF report generation, and full-stack Web applications. These projects provide the systems, data, debugging, and delivery foundation behind the Agent work.
+
