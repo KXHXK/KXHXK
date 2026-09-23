@@ -136,7 +136,7 @@ FastAPI, PostgreSQL, Redis, React/Vue, TypeScript, Docker, CI, cloud deployment,
 
 ### Current PR Status
 
-As of **September 24, 2026**, **22 external PRs remain open** and **11 are closed without a direct merge**. There have been no new merges since the previous audit. The two newly conflicting branches, OpenHands #16576 and agent-browser #1623, have been refreshed and tested. Fresh CI and maintainer reviews remain pending; OpenHands readiness gates require maintainer decisions. New automated review-paused notices have been answered.
+As of **September 24, 2026**, **22 external PRs remain open** and **11 are closed without a direct merge**. There have been no new merges since the previous audit. The two newly conflicting branches, OpenHands #16576 and agent-browser #1623, have been refreshed and tested. OpenHands' refreshed Ubuntu/Windows CI passes; maintainer reviews, readiness decisions, and Vercel authorization gates remain. New automated review-paused notices have been answered.
 
 IBM #5913 was closed as a duplicate of an earlier PR. LobeHub #18260 was closed after upstream #19190 shipped the same group-member fix and regression coverage. Neither is counted as an accepted contribution. Qwen Code #9045 has shipped in v0.23.0.
 
@@ -144,9 +144,9 @@ IBM #5913 was closed as a duplicate of an earlier PR. LobeHub #18260 was closed 
 |:--|:--|:--|
 | [AG-UI #2503](https://github.com/ag-ui-protocol/ag-ui/pull/2503) | Maintainer-approved O(1) session lookup; mergeable with 18 focused tests passing | Await maintainer review and external-PR CI handling |
 | [OpenHands #16112](https://github.com/OpenHands/OpenHands/pull/16112) | Rebased implementation and evidence are complete; linked issue lost its maintainer-controlled readiness label under the new policy | Await maintainer confirmation, label, and review |
-| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Rebased to current main; 11 focused tests, typecheck, component lint, and formatting pass locally | Await fresh CI, maintainer readiness label, and review |
+| [OpenHands #16576](https://github.com/OpenHands/OpenHands/pull/16576) | Rebased to current main; 11 focused tests and local checks pass; refreshed Ubuntu/Windows CI passes | Await maintainer readiness label and review |
 | [OpenHands #16116](https://github.com/OpenHands/OpenHands/pull/16116) | Code CI passes; linked issue needs maintainer-controlled readiness label | Await maintainer label and review |
-| [agent-browser #1623](https://github.com/vercel-labs/agent-browser/pull/1623) | Rebased parser fix preserves new screenshot options; 314 parser and 71 MCP-related tests pass locally | Await fresh CI and maintainer review |
+| [agent-browser #1623](https://github.com/vercel-labs/agent-browser/pull/1623) | Rebased parser fix preserves new screenshot options; 314 parser and 71 MCP-related tests pass locally | Await maintainer review and Vercel authorization |
 | [LiteLLM #36745](https://github.com/BerriAI/litellm/pull/36745) | Reopened by a maintainer after base-branch deletion; checks pass and the PR is conflict-free | Await maintainer review |
 | [AgentOps #1431](https://github.com/AgentOps-AI/agentops/pull/1431) | Cancellation cleanup review addressed; context and span now close exactly once | Peer re-review confirmed the fix; await maintainer review |
 | [AgentOps #1435](https://github.com/AgentOps-AI/agentops/pull/1435) | Cancellation status review addressed; finalization no longer overwrites ERROR with OK | Peer re-review confirmed the fix; await maintainer review |
